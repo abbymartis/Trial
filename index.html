@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>COMP501 HTML Practice </title>
+</head>
+<body>
+<center>
+    <img src = "images/image001.jpg">
+<h1><i>COMP501 - Computing Technology in Society</i></h1>
+<h2>Semester 1 2024</h2>
+<h2>Assignment </h2>
+</center>
+
+<h4>Total Marks: 100</h4>
+<h4>Contribution to the final mark: 40%</h4>
+<h4>Due: 5:00pm, 15th January 2024</h4>
+
+<br>
+
+<h3>Assignment Aim</h3>
+<p>The assignment has 4 parts:</p>
+<p><ul>1.  It aims to give students an understanding of how computer systems represent real-life data
+     such as positive, negative numbers, floating point numbers, text, etc., at the lowest level
+     seen by the programmer, namely binary numbers. </ul></p>
+<p><ul>2.  It prepares students with the ability to install multiple operations systems using Virtual
+    Box (https://www.virutalbox.org/) and comparatively evaluate the Linux/UNIX Operating systems
+    (OS). This assignment also prepares students to understand the basic concepts covering Linux/UNIX 
+    file systems, commands, and working environments.</ul></p>
+<p><ul>3.  It helps students understand the basic idea of contemporary Machine Learning and
+    Deep Learning using Google Colab (https://colab.research.google.com/).</ul></p>
+<p><ul>4. It aims to have students demonstrate an awareness of enterprise information systems,
+    their application in the business environment, and modelling techniques for systems
+    requirements:</ul></p>
+<p><ul><ul>a. It prepares students with the ability to analyse business cases and document
+    the purpose, objectives, data requirements, data flows, input documents and
+    output documents of common business functions and processes expressed in a
+    range of information systems.</ul></ul></p>
+
+<br>
+
+<h3>Machine Learning and Deep Learning</h3>
+<p>This part of the assignment will help you to understand the basic idea of Machine Learning and Deep
+    Learning using Google Colab (https://colab.research.google.com/ ). You will experiment with running
+    a YOLO Python file on Google Colab and evaluate the results of your experiment.</p>
+
+<br>
+
+<p>Here you will test a fast version of an available object detection system - YOLO
+    (https://pjreddie.com/darknet/yolo/). You will submit photos (taken by yourself) to YOLO; YOLO will
+    try to identify the objects in the photos and will tag the objects and produce accuracy percentages of
+    the detection/prediction. You will analyse the results to conclude if the tool is good enough for your
+    task </p>
+<p>In the following section, we provide an overview of the process, followed by the questions you need
+    to work through.</p>
+<h4>An overview - Using YOLO with Google Colab</h4>
+<p><ul>1) Download the attached file: Assignment_1.ipynb from the Assessment page.</ul></p>
+<p><ul>2) Open Google Colab: https://colab.research.google.com/ and login (using a gmail
+    account)</ul></p>
+    <ul><img src = "images/image002.jpg"></ul>
+<p><ul>3) Click File >> Upload Note Book to upload the .ipynb file</ul></p>
+<p><ul>4) You will see only two cells of code. Click Run cell (se figure below) to run each cell.
+    You will need to run the first cell once, and the last cell many times to finish the
+    assignment):</ul></p>
+    <p><ul><ul>- 1st cell: where you can get the Yolo repo, pre-trained weights and set up the
+        python environment (You only need to run this cell once)</ul></ul></p>
+    <p><ul><ul>- 2nd cell: where you upload the necessary photos/images (.jpg) from your local
+        drive to achieve prediction with YOLO</ul></ul></p>
+    <ul><img src = "images/image003.jpg"></ul>
+<p><ul>5) When you run cell 2, the program waits for you to upload a file. Click on Choose a file
+    and select a file from your dataset of photos.</ul></p>
+<p><ul>6) YOLO will then try to identify the objects in the photo and will give you the prediction
+    results and percentage of accuracy of the prediction.</ul></p>
+<p><ul>The output could be something like this:</ul></p>
+<ul><img src = "images/image004.jpg"></ul>
+<p><ul>And here, 1 person and 3 dogs are successfully detected in the image.</ul></p>
+
+<h4><u>Question 1: Collect dataset / photos</u>(10 marks)</h4>
+<p><ul>- Take at least 10 photos that include animals, people or groups of other objects. You may use
+    your cell phone to take the pictures or find them on the internet.</ul></p>
+<p><ul>- Save all the pictures to a folder called Images</ul></p>
+<p><ul>- You may wish to resize the images so that each is 500 KB or less in size</ul></p>
+
+<h4><u>Question 2: Test the prediction performance of YOLO object detection system using images
+    as the inputs </u>(10 marks)</h4>
+
+<p><ul>- Start by running the first cell to set up the environment (you only need to run it once).</ul></p>
+<ul><img src = "images/image006.jpg"></ul>
+
+<p><ul>- Run the second cell and click “Choose Files” to upload a jpg image.</ul></p>
+<ul><img src = "images/image007.jpg"></ul>
+
+<p><ul>- After that, you will first see the weights being downloaded; and then the object detection
+    system will search for all objects in the image and return output with bounding boxes and
+    annotations of detected objects like in the following image:</ul></p>
+<ul><img src = "images/image008.jpg"></ul>
+<ul><img src = "images/image009.jpg"></ul>
+
+</body>
+</html>
